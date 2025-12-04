@@ -3,10 +3,6 @@ pragma solidity ^0.8.0;
 
 contract Task2 {
 
-    // --------------------------------------------------------
-    // VARIABLES
-    // --------------------------------------------------------
-
     // Public number variable (default is 0)
     uint public number;
 
@@ -18,9 +14,8 @@ contract Task2 {
 
 
 
-    // --------------------------------------------------------
+    
     // FUNCTIONS
-    // --------------------------------------------------------
 
     // Updates the public variable "number"
     function setNumber(uint newNumber) public {
@@ -48,3 +43,4 @@ contract Task2 {
     }
 
 }
+
